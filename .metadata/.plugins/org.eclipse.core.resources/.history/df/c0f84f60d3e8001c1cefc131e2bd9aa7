@@ -1,0 +1,13 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class FibonacciTestTest {
+
+	@Test
+	public void test() {
+		int result = FibonacciTest.SerieFibonacci(0);
+		assertEquals(1, result);
+	}
+
+}
