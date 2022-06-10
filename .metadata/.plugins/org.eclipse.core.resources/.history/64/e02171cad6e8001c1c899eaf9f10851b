@@ -30,8 +30,8 @@ public class FibonacciTestJUnit {
 	
 	@Test
 	public void test4() {
-		int result = FibonacciTest.SerieFibonacci(35);
-		assertEquals("Hola", result);
+		int result = FibonacciTest.SerieFibonacci(100000000000000000000000000000000000);
+		assertEquals(56, result);
 	}
 
 }
